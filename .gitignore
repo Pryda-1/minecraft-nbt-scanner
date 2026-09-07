@@ -1,0 +1,11 @@
+.env/
+.spyproject/
+__pycache__/
+
+txt_configs/
+
+_local_world_files/
+_scanner_cache/
+_scan_results/
+
+testing/

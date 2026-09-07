@@ -1,0 +1,14 @@
+name: minecraft-nbt-scanner
+
+channels:
+  - defaults
+
+dependencies:
+  - numpy
+  - requests
+  - paramiko
+  - pip:
+    - anvil-parser2==0.10.6
+    - frozendict==2.4.7
+    - nbt==1.5.1
+    - nbtlib==2.0.4
