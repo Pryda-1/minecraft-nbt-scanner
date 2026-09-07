@@ -383,7 +383,7 @@ def start_sftp_region_source_scan(*,
                                 f"In flight: {regions_in_flight}, "
                                 f"scan futures: {len(scan_futures)}, "
                                 f"remote queue: {remote_queue.qsize()}, "
-                                "downloaded queue: {downloaded_queue.qsize()}"
+                                f"downloaded queue: {downloaded_queue.qsize()}"
                             )
                         
                         print()
